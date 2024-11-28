@@ -13,6 +13,4 @@ There are totally three .py in the code file, with the environment of pytorch
 
 ### Usage of .py files
 
-Open both AlexNet.py and train_AlexNet.py files, and you can run it directly with optimizer sgd, batch size=64, epoch=50, learning rate=0.005.
-
-I used the optimizer of sgd in the train_AlexNet.py, if you want to change the optimizer, uncomment the rows below, for the optimizer of Adam.
+You can run the AlexNet directly on `Train_AlexNet.py` with the default configuration: SGD optimizer, batch size of 64, 50 training epochs, and a learning rate of 0.005. If you want to switch optimizers, Adam optimizer code is pre-configured in train_AlexNet.py - simply uncomment the relevant lines to use Adam instead of the default SGD optimizer.
